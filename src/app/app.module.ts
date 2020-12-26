@@ -21,6 +21,7 @@ import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
+import {PromotionService} from './services/promotion.service';
 @NgModule({
   declarations: [
     AppComponent,
@@ -45,7 +46,8 @@ import { FooterComponent } from './footer/footer.component';
     MatButtonModule
   ],
   providers: [
-    DishService
+    DishService,
+    PromotionService
   ],
   bootstrap: [AppComponent]
 })

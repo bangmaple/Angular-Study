@@ -6,4 +6,8 @@
   min-height: 150px;
 }
 
+.active {
+  background: #4527A0;
+}
+
 /*# sourceMappingURL=header.component.css.map */
