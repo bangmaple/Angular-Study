@@ -9,6 +9,9 @@ import 'hammerjs';
 import { MenuComponent } from './menu/menu.component';
 import {MatLineModule} from '@angular/material/core';
 import {MatListModule} from '@angular/material/list';
+import {MatGridListModule} from '@angular/material/grid-list';
+import {MatCardModule} from '@angular/material/card';
+import {MatButtonModule} from '@angular/material/button';
 
 
 @NgModule({
@@ -22,7 +25,10 @@ import {MatListModule} from '@angular/material/list';
     FlexLayoutModule,
     MatToolbarModule,
     MatLineModule,
-    MatListModule
+    MatListModule,
+    MatGridListModule,
+    MatCardModule,
+    MatButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]
